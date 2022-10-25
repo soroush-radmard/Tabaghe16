@@ -1,0 +1,101 @@
+/* Project Responsive */
+
+@media only screen and (max-width: 1400px) {
+    .container {
+        max-width: 1160px;
+    }
+
+    .guest-section .card-guest .card:nth-child(1){
+        display: none;
+    }
+
+    .guest-section .card-guest .card:nth-child(2){
+        display: none;
+    }
+
+    .guest-section .card-guest{
+        justify-content: center;
+    }
+
+    .carousel-buttons{
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .header-section .intro-part{
+        padding: 3rem 2rem;
+    }
+
+    .header-section .intro-part .left-side h1{
+        font-size: 2rem;
+    }
+    
+    .header-section .intro-part .left-side h4{
+        font-size: 1rem;
+    }
+
+    .logo-img{
+        width: 5rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .footer-section{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .header-section .intro-part{
+        padding: 2.5rem 1rem;
+    }
+    
+    .header-section .intro-part .left-side h1{
+        font-size: 1.5rem;
+    }
+    
+    .header-section .intro-part .left-side h4{
+        font-size: .8rem;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .container {
+        width: 100%;
+        margin: 0;
+    }
+
+    .header-section .navbar-part{
+        text-align: center;
+        padding: .5rem 0;
+    }
+
+    .header-section .navbar-part i{
+        font-size: 1.3rem;
+        display: block;
+    }
+
+    .header-section .navbar-part .menu{
+        display: none;
+    }
+
+    .main-section .podcast-section .card-carousel{
+        margin: 0 3.5rem;
+        width: auto;
+    }
+    
+}

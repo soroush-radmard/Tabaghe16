@@ -1,0 +1,12 @@
+@font-face {
+  font-family: sohoma-light;
+  src: url(/assets/fonts/sohoma/sohoma_light.ttf);
+}
+@font-face {
+  font-family: sohomo-bold;
+  src: url(/assets/fonts/sohoma/sohoma_extrabold.ttf);
+}
+@font-face {
+  font-family: xtreme-chrome;
+  src: url(/assets/fonts/xtreme-chrome/xtreme_chrome.ttf);
+}
